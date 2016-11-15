@@ -7,6 +7,7 @@
   width: 2em;
 }
 
+
 head {
   font-family: 'Lato', sans-serif;
   font-weight: 200;
@@ -33,13 +34,17 @@ div#social a:last-of-type {
 
 .row {
   display: flex;
-  flex-wrap: wrap;
 }
 
 footer {
   margin: 0 auto;
   width: 800px;
   text-align: center;
+}
+
+div#images {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .text-muted {
@@ -57,12 +62,11 @@ footer {
 .title-logo {
   margin-top: 20px;
 }
-div#social {
 
-}
 
 .col-md-4 {
 	color: #2d3c49;
+  max-width: 33.3333%;
 }
 
 hr {
