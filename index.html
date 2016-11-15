@@ -10,6 +10,7 @@
 		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="http://weloveiconfonts.com/api/?family=zocial">
+		<link rel="stylesheet" href="css/responsive.css">
 		<link href="http://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet" type="text/css">
 		<script type="text/javascript" src="bootstrap/js/jquery-3.1.1.min.js"> </script>
 		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"> </script>
@@ -19,43 +20,47 @@
 		<div class="container">
 			<div class="row" id="banner">
 				<div class="col-md-6" id="logo">
-					<img class="title-logo" src="http://placehold.it/100x100" alt="Logo">
+					<img class="title-logo" src="images_src/udacity.png" alt="Logo">
 				</div>
 				<div class="col-md-6 text-right text-uppercase" id="name">
 					<h1 class="title-super text-thin">Minyoung Chun</h1>
 					<h4>Front-end Ninja</h4>
 				</div>
 			</div>
+
 			<div class="row">
 				<div class="col-md-12">
 					<hr>
 				</div>
 			</div>
+
 			<div class="row" id="main_image">
 				<div class="col-md-12">
-					<img src="http://placehold.it/1140x350" class="img-responsive" alt="Main Image">
+					<img src="images_src/blog.png" class="img-responsive" alt="Main Image" width=1140px height=350px>
 				</div>
 			</div>
+
 			<div class="row" id="featured_work"> 
 				<div class="col-md-12">
 					<h2 class="text-muted">Featured Work</h2>
 				</div>
 			</div>
+
 			<div class="row text-center" id="images">
 				<div class="col-md-4" id="berkeley">
-					<img src="images_src/berkeley.png" alt="Berkeley Poster" data-toggle="modal" data-target="#myModal1">
+					<img src="images_src/berkeley.png" alt="Berkeley Poster" class="img-responsive" data-toggle="modal" data-target="#myModal1" width=380px height=300px>
 					<h3 class="text-uppercase">UC Berkeley</h3>
 					<p><a href="http://www.berkeley.edu/">http://www.berkeley.edu/</a></p>
 				</div>
-				<div class="col-md-4" id="sunflower">
-					<img src="http://placehold.it/380x300" class="img-responsive" alt="Sunflower" data-toggle="modal" data-target="#myModal2">
-					<h3 class="text-uppercase">Sunflower</h3>
-					<p><a href="https://github.com/udacity/Sunflower/">https://github.com/udacity/Sunflower/</a></p>
+				<div class="col-md-4" id="digitalmarketing">
+					<img src="images_src/digitalmarketing.png" class="img-responsive" alt="Digital Marketing" data-toggle="modal" data-target="#myModal2">
+					<h3 class="text-uppercase">SEM</h3>
+					<p><a href="http://searchengineland.com/guide/what-is-sem">http://searchengineland.com</a></p>
 				</div>
 				<div class="col-md-4" id="bokeh">
-					<img src="http://placehold.it/380x300" class="img-responsive" alt="Bokeh" data-toggle="modal" data-target="#myModal3">
-					<h3 class="text-uppercase">Bokeh</h3>
-					<p><a href="https://github.com/udacity/Bokeh/">https://github.com/udacity/Bokeh/</a></p>
+					<img src="images_src/webdevelopment.png" class="img-responsive" alt="Bokeh" data-toggle="modal" data-target="#myModal3">
+					<h3 class="text-uppercase">Web Development</h3>
+					<p><a href="https://www.udacity.com/course/web-development--cs253">https://www.udacity.com</a></p>
 				</div>
 			</div>
 		</div>
@@ -81,6 +86,37 @@
                 	<div class="modal-body">
                     	<img class="img-responsive" src="images_src/berkeley.png">
                     I went to college at UC Berkeley, where I graduated with Economics degree in December 2014.
+                	</div>
+                	<div class="modal-footer">
+                    	<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                	</div>
+            	</div>
+        	</div>
+    	</div>
+    	<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        	<div class="modal-dialog">
+            	<div class="modal-content">
+                	<div class="modal-header">
+                    	<h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+                	</div>
+                	<div class="modal-body">
+                    	<img class="img-responsive" src="images_src/digitalmarketing.png">
+                    I worked for a digital marketing agency for a year and a half after graduating from college as an analyst. 
+                	</div>
+                	<div class="modal-footer">
+                    	<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                	</div>
+            	</div>
+        	</div>
+        	<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        	<div class="modal-dialog">
+            	<div class="modal-content">
+                	<div class="modal-header">
+                    	<h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+                	</div>
+                	<div class="modal-body">
+                    	<img class="img-responsive" src="images_src/webdevelopment.png">
+                    Now I'm a Udacity student taking web development nanodegree course aspiring to expand my knowledge in the digital world.
                 	</div>
                 	<div class="modal-footer">
                     	<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
